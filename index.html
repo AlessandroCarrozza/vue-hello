@@ -10,7 +10,17 @@
 <body>
     
 
+    <div id="app">
 
+        <div :class="containerClass">
+            <h1 :class="titleClass">{{titleText}}</h1>
+            <img :src="srcPhoto" alt="photo random" :class="imageClass">
+        </div>
+
+    </div>
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
